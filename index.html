@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<body>
+  <main>
+    <section class="top">
+      <h1>Notifications <span class="notif-number">3</span></h1>
+      <button class="all-read">Mark all as read</button>
+    </section>
+    <div class="notifs">
+      <section class="notif new-notif notif-1" data-check="false">
+        <img class="image" src="assets/images/avatar-mark-webber.webp" alt="Mark">
+        <div class="details">
+          <h2><a href="#" class="name">Mark Webber </a>reacted to your recent post <a href="#" class="post-title">My first tournament today!</span><span class="check-dot">●</a></h2>
+          <p class="duration">1m ago</p>
+        </div>
+      </section>
+
+      <section class="notif new-notif notif-2" data-check="false">
+        <img class="image" src="assets/images/avatar-angela-gray.webp" alt="Angela">
+        <div class="details">
+          <h2><a href="#" class="name">Angela Gray </a>followed you <span class="check-dot">●</span></h2>
+          <p class="duration">5m ago</p>
+        </div>
+      </section>
+
+      <section class="notif new-notif notif-3" data-check="false">
+        <img class="image" src="assets/images/avatar-jacob-thompson.webp" alt="Jacob">
+        <div class="details">
+          <h2><a href="#" class="name">Jacob Thompson </a>has joined your group <a class="chess-group" href="#">Chess Club</a> <span class="check-dot">●</span></h2>
+          <p class="duration">1 day ago</p>
+        </div>
+      </section>
+
+      <section class="notif notif-4" data-check="true">
+        <img class="image" src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky">
+        <div class="details">
+          <h2><a href="#" class="name">Rizky Hasanuddin </a>sent you a private message<span class="check-dot">●</span></h2>
+          <p class="duration">5 days ago</p>
+          <p class="message">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </section>
+
+      <section class="notif notif-5" data-check="true">
+        <img class="image" src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly">
+        <div class="details">
+          <h2><a href="#" class="name">Kimberly Smith </a>commented on your picture<span class="check-dot"></span></h2>
+          <p class="duration">1 week ago</p>
+        </div>
+        <div class="chess-map">
+          <img src="assets/images/image-chess.webp" alt="">
+        </div>
+        
+      </section>
+
+      <section class="notif notif-6" data-check="true">
+        <img class="image" src="assets/images/avatar-nathan-peterson.webp" alt="Nathan">
+        <div class="details">
+          <h2><a href="#"  class="name">Nathan Peterson </a>reacted to your recent post <a href="#" class="post-title">5 end-game strategies to increase your win rate</a><span class="check-dot">●</span></h2>
+          <p class="duration">2 weeks ago</p>
+        </div>
+      </section>
+
+      <section class="notif notif-7" data-check="true">
+        <img class="image" src="assets/images/avatar-anna-kim.webp" alt="Anna">
+        <div class="details">
+          <h2><a href="#"  class="name">Anna Kim </a>left the group <a href="#" class="chess-group">Chess Club</a><span class="check-dot">●</span></h2>
+          <p class="duration">2 weeks ago</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+<script src="main.js"></script>
+</html>
